@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danny Collan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>  
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                A small outdoor app <strong>Homerun</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Done Using Java and XML</p>
+            <img src="img/homerun-logo.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>This mobile application was done independently for a human-computer interaction
+                course during the final semester of my time attending SFSU. Though this was simply a small, 
+                "theoretical" mobile app that served very much like a UI design interface, I feel this still
+                had some good use for my own experience and my overall knowledge regarding how mobile apps
+                today are being developed: by first creating a UI interface, and then using this sketch to
+                do some actual coding, knowing what the blueprints for the mobile application would look like.
+                As a matter of fact, this project has helped me significantly with creating my second mobile
+                application, Charm (displayed as my third piece of work).
+            </p>
+            <img src="img/Project-2.jpg" alt="">
+            <p>When creating this mobile application, I used Java and XML to be able to compile
+                everything together. The Java was used to give the capability for the user to be able to
+                click on buttons and to go to a specific page after one was clicked, where the XML was
+                used very much like CSS: to add the design, colors, font styles, and background to each
+                page.
+            </p>
+            <p>As mentioned, though this mobile app was simply a theoretical "click-on-the-button-for-the-next-
+                page" type of small project with no actual backend, its "purpose" once it was finished was to grant the 
+                user a random task per day to do an outdoor activity. Once the user first enters the app, he/she will 
+                select a specific outdoor category: to do something that relates to doing exercises, doing hobbies,
+                doing meditative tasks outside, or to simply socialize. Once the user selects a category out of the four,
+                he/she will assign themselves a number of days to do the routine. If the user, in any way, is 
+                incapable of completing the given outdoor activity, he/she has the options to either be granted a
+                new activity of that same category, or to choose a different category (this will cause for the user
+                to lose all of his/her progress). The user is free to view their lifetime statistics since they have
+                downloaded the app, or to simply exit the application. </p>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:collan97@gmail.com" class="footer__link">collan97@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dcollan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dcollan/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/dannycollan">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

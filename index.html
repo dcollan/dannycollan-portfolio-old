@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danny Collan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>  
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hey, I'm <strong>Danny Collan</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">An Aspiring Front-End Software Developer</p>
+            <img src="img/dannycollan.jpg" alt="a picture of Danny Collan" class="intro__img">
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="secton__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Front End</h3>
+                    <p>Best at working with HTML, CSS, and JavaScript. I work
+                    very efficiently if in a team. When it comes to working
+                    with these programming languages, I set myself with a mentality
+                    that says, "With more work done sooner, the less stress I will
+                    have to face in the future being preoccupied about having the 
+                    task finished." Thus, with the more coding work done, the more
+                    experience I can gain. Currently being without work experience
+                    for the moment, it does continuously become my main objective
+                    to keep building up my level of expertise regarding these
+                    subjects and their uses in the real world.
+                    </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Application Development</h3>
+                    <p>The most experience I have had with application development
+                    can include the kinds of work I did while attending San Francisco
+                    State University. These can include creating a social website to
+                    upload photos, creating a mobile app alike Instagram to share
+                    new photos and have users interact with them, creating a simple
+                    mobile application that serves as a UI interface, or developing a
+                    college restaurant website to have customers search for nearby
+                    restaurants within the campus's radius and place orders on their
+                    page.
+                    </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>QA Testing</h3>
+                    <p>When developing a restaurant website called Gator Grub
+                    alongside a team of 5 other people during my time attending SFSU,
+                    we conducted QA testing to assure that the application was
+                    well-functional, and had not carried any bugs inside that would
+                    negatively affect the user's experience. Since we were to present
+                    our work for a local institution from Germany, creating a
+                    collection of our work, adding documentation to it, and then
+                    checking to see if it had met the requirement criteria for the
+                    applicable standards of a proper running application without any
+                    flaws prior to initiating its launch was deemed highly necessary.
+                    </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Recent SFSU grad in Computer Science</p>
+            <div class="about-me__body">
+                <p>My name is Danny Collan, and I am a recent graduate from San Francisco State University
+                    with a major in Computer Science. My hobbies include creating new discoveries, traveling,
+                    reading, running, and coding new exciting applications.
+                </p>
+                <p>My hometown is Fremont, CA, and every now and then, I like to do some research for my
+                    passion in coding new applications. I do this to be able to gain some more insight on how
+                    modern-day apps are currently being done in the world today. By learning from great
+                    experienced coding professionals out there, it gives me outstanding potential to be
+                    able to reach out, and become the best programmer I can be. 
+                </p>
+                <p>I like to attend virtual tech seminars (such as ones for Google Cloud or Adobe) and take
+                    notes from certified representatives that come from all different sorts of companies.
+                    Indeed, I believe with greater knowledge and making new discoveries, it is the proper 
+                    way to lead yourself to making the best development possible.
+                </p>
+            </div>
+            <img src="img/dcollan.jpg" alt="Danny sitting next to a tree" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio Item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/Project-1.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio Item 02 -->
+                <a href="portfolio-item-2.html" class="portfolio__item">
+                    <img src="img/Project-2.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio Item 03 -->
+                <a href="portfolio-item-3.html" class="portfolio__item">
+                    <img src="img/Project-3.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio Item 04 -->
+                <a href="portfolio-item-4.html" class="portfolio__item">
+                    <img src="img/Project-4.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:collan97@gmail.com" class="footer__link">collan97@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dcollan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dcollan/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/dannycollan">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danny Collan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>  
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                A photo-posting website <strong>Social Catch</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Done Using Handlebars, CSS, JavaScript, and Node.js</p>
+            <img src="img/social-catch-logo.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>This website was done during the first summer term of my time at SFSU in 2020
+                for a web development course. For the duration of the term, all students of this
+                course were required to independently develop a website of their own preference.
+                For my case, I decided to do a website that had involved posting photos to a
+                particular news feed, and being able to share it with other logged in users.</p>
+            <img src="img/Project-1.jpg" alt="">
+            <p>When piecing together the project, I did several coding using handlebar classes, CSS, JavaScript, and SQL. The SQL
+                was done using MySQL Community Edition. The JavaScript was mainly used to execute all the primary functions
+                of the website (such as going from page to page, utilizing the search bar, posting photos, and linking
+                with the database queries in the backend). As for the handlebar classes, each of them served as the frameworks of
+                the website (the grids, sections, the layout, etc.), where the CSS added the stylish features (color, text styles, 
+                font sizes, background, etc.). 
+            </p>
+            <p>In the end of the project once it was finished, I was successfully able to create an account, log into it using
+                sessions, and then have the capability to post photos, where these would be added into the news feed consisting
+                of photos posted by other users. I included a function that would allow for the user to search for specific photos,
+                in which this is done by searching through the database full of queries, and identifying the proper element that
+                consists of a matching name. Once the user posts a photo, a new query is added into the database with a unique id
+                and a name to be referenced in the future once a search is done. The user will have the capability to log out of the
+                session, and be able to log back in using the matching username and password the person has signed up with during the
+                registration process.
+            </p>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:collan97@gmail.com" class="footer__link">collan97@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dcollan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dcollan/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/dannycollan">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
