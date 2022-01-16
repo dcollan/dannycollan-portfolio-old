@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danny Collan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>  
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                A basic college portal<strong>Django College App</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Done Using Django and SQLite3</p>
+            <img src="img/django-logo.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>For this project, this was done a few months after I graduated from San 
+            Francisco State University. Still on the lookout for work, I decided to
+            do another college website solo using Django, this time using SQLite3 as my
+            database. Unlike my other previous project for a college website, Gator Grub,
+            where I have worked together with a software engineering group in university,
+            this was a college app that would serve very much like the student / teacher
+            portal of my university's website.  
+            </p>
+            <img src="img/Project-5_1.jpg" alt="">
+            <img src="img/Project-5_2.jpg" alt="">
+            <p>To run the website, simply run in a terminal "python manage.py runserver."
+            In this website, though it is supposed to be basic, I have decided to
+            simply give it a title of "Django College App" for the current moment.
+            In this, it has the capability to register new admins, where they will
+            be the only ones that could sign into "localhost:8000/admin." To register
+            a new admin, simply run "python manage.py createsuperuser." The current
+            default password for every registered admin is "project123." These admins,
+            once they sign in, are able to register new teachers, students, courses, or
+            they could assign students or teachers to specific courses. Admins could do
+            many more things as well.
+            </p>
+            <p>Once a new teacher or student is registered by the admin, they may now log
+            into "localhost:8000" using their newly registered username and password.
+            Whether they are logged in as a student or teacher, students can either attend
+            their course, or teachers can mark absence on missing students. Teachers can
+            also do more, such as adding new assignments or placing marks on students'
+            assignment scores. To log back out, they may do so simply at the corner of their
+            screen by clicking on "Logout," where the user will be required to log back in 
+            if needed.
+            </p>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:collan97@gmail.com" class="footer__link">collan97@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dcollan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dcollan/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/dannycollan">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
