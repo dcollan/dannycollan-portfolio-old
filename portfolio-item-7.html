@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danny Collan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>  
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Cyclic Particle Accelerator</strong>Simulation
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Done Using Advanced Python</p>
+            <img src="img/CPAS-logo.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>In this project, I feel I have put a tremendous amount of effort
+            into having completed. Before beginning this discussion, it must first be 
+            said that the application was done using only advanced Python. What had
+            sparked me at first to create such a complex application nothing but a
+            small curiosity on a science topic regarding particle acceleration.
+            </p>
+            <p>Particle acceleration is the experimental use utilized by various
+            scientists of today's advancing molecular research. With today's modern
+            technology, scientists are currently utilizing machinery that can extend
+            up to several miles known as particle accelerators. The purpose of these
+            facilities is to send electrons at the speed of light through a pathway
+            until they either collide with other electrons, revealing their molecular
+            structures for scientists to observe, or enter an X-ray phase where the
+            lights they generate that are caused by magnetic vibrations are used to
+            melt down samples of molecules, revealing their atomic structures as a
+            graphical representaion. The purpose of these experiments is simply for
+            scientists to learn more about the universe, and what unknown substances
+            it composes of, where this new information can be used to assist in the
+            aid of improving technology everywhere in all sectors.
+            </p>
+            <p>At the part in which I have explained the collision of electrons against
+            each other, where their molecular structures are revealed to the scientists,
+            these are done in facilities known as Cyclic Particle Accelerators, since
+            they first go through circular loops for miles on until they collide with
+            each other. For the process of sending electrons through X-rays, those are
+            done in facilities known as Linear Particle Accelerators, since they go
+            directly through in a straight line for miles on. For my Python project, I
+            have decided to make a simulation application that depicts all the stages 
+            that occur during the entire Cyclic Particle Accelerator process.
+            </p>
+            <img src="img/Project-7.jpg" alt="">
+            <p>As shown in the simulation above, it first creates three protons. At the
+            second stage, bunch compressors are enabled so that they may keep the protons
+            flowing smoothly as they travel through their paths without having to face
+            distortion. Once this stage is passed, records that display the protons'
+            current kinetic energy in electron volts (eV), along with their momentum and
+            positions are shown. After these records are shown, the electrons will have
+            "collided" with each other already after going through the circular loop, 
+            where the simulation will finish, and the analysis of the information
+            captured from the "collision" will be written to a file titled 
+            "cyclotron_data.npz." Once the file has been created, the program will
+            end from there.
+            </p>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:collan97@gmail.com" class="footer__link">collan97@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dcollan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dcollan/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/dannycollan">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
