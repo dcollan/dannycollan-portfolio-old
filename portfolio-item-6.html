@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danny Collan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>  
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                A customer info<strong>React application</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Done Using JSON, Node.js, HTML5, & CSS3</p>
+            <img src="img/react-logo.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>In this project, I made a basic react application that is supposed to
+            take information from customers who had interacted with different sorts of
+            companies, and have displayed: their full name, email, phone number, city,
+            state, country, the company the customer interacted with, the customer's 
+            current job, and details regarding the customer's patronage to the company. 
+            </p>
+            <img src="img/Project-6.jpg" alt="">
+            <p>There are two components to this application: the Customers component,
+            where it will display a list of customers, and the Customer Details
+            component, where it will display the details of a selected customer.
+            Both of these functions work by obtaining data from a JSON file located
+            in an assets folder. The Customer Details component is the child component
+            of the Customers component.
+            </p>
+            <p>The sole purpose of this application was to become more familiar with
+            react, and the tools it uses to develop big applications. When creating
+            this small application, JSON, Node.js, HTML5, and CSS3 were all used during
+            its development. I began working on this small project at first independently
+            simply because I had a great interest to learn react. I had a lot of passion
+            wanting to explore different technologies, and with react being one of them,
+            I wanted to see if I could develop a nice application with it. Now that I have,
+            I feel I have definitely become a lot more familiar using this unique technology.
+            </p>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:collan97@gmail.com" class="footer__link">collan97@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dcollan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dcollan/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/dannycollan">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
