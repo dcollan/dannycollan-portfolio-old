@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danny Collan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>  
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Particle Collision</strong>Simulation
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Done Using Intermediate Java</p>
+            <img src="img/PCS-logo.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>For this project, I began to work on a small science-related Java
+            application for none other than a curiosity that arose when I was
+            doing some research one day recently last year regarding how scientists
+            make their advancements with modern-day technology. Learning that they look
+            deep into particle research, I've discovered that what scientists love to do
+            to uncover these amazing discoveries, where they always lead to reaching new
+            milestones in various sectors, is collide particles (protons or electrons)
+            against each other (in a related project, I've done a Python application
+            that is based on the facility scientists use to conduct particle collision
+            for their research).
+            </p>
+            <img src="img/Project-8_1.jpg" alt="">
+            <p>Regarding the project shown above, this is for a simple simulation using some
+            intermediate Java that portrays the collisions various protons make as they are
+            bouncing off one another in a fitted screen. In the simulation, as the frequency
+            in collisions increases, the speed will increase as well. At a certain point, as
+            the simulation continues, the screen will begin portraying colliding protons 
+            significantly speeding past one another, at which exiting the application
+            would now be highly recommended. Though this minor application seems to only
+            display a graphical simulation of protons colliding against one other, I have
+            found it to be quite an educational thing to develop and learn regarding the
+            behavior of atoms, and even rather fun.
+            </p>
+            <img src="img/Project-8_2.jpg" alt="">
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:collan97@gmail.com" class="footer__link">collan97@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dcollan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dcollan/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/dannycollan">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
