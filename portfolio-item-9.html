@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danny Collan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>  
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Space Treasure Hunt!</strong>Minigame
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Done Using Intermediate Java</p>
+            <img src="img/STH-logo.png" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>In this fun project, I've created a short space minigame in Ruby that
+            is essentially just navigating your spaceship side-to-side, attempting to
+            collect as many coins as possible for the purpose of competing against
+            your friends, seeing who could reach the highest score before the player
+            exhausts all three of their lives. The player can lose a life if he or
+            she mistakenly stumbles upon a fiery object as the person is collecting
+            coins. Once the player accumulates a certain amount of coins that fulfills
+            the meter, the person will be advanced into the next level, where the speed
+            of the falling coins (and fiery objects) will increase, making it more
+            difficult for the player to avoid the fiery objects.
+            </p>
+            <img src="img/Start-Game.png" alt="">
+            <img src="img/Gameplay.png" alt="">
+            <p>Once the player has exhausted all three of their lives, the Game Over
+            screen will display, prompting the player if he or she wishes to play
+            again. The current player's highest score will be displayed at the top
+            left corner of the screen as "Max score," in which whether or not the
+            same player or another will begin another game, the max high score
+            received prior will remain displayed until it has been surpassed, where
+            the new high score received will replace the older one. 
+            
+            <p>While creating the game, this was done using RubyMine 2021. I've included
+            a very appealing soundtrack that plays as the game is running, along with
+            a UI that will immerse the player's focus into the game with a thrill of
+            excitement.</p>
+            </p>
+            <img src="img/Game-Over.png" alt="">
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:collan97@gmail.com" class="footer__link">collan97@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dcollan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dcollan/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/dannycollan">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
