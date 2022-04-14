@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danny Collan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>  
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Musical<strong>World</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Done Using HTML, CSS, JavaScript, & PHP</p>
+            <img src="img/php-logo.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>In this project, I decided to independently work on a website using
+            PHP that allows for the user to register an account or sign into an
+            existing one, where the person would be able to create a certain playlist
+            by uploading any desired song from his/her OS.
+            </p>
+            <p>The user is free to listen to any of their uploaded songs, and has the
+            option to send a message to me for any inquiries by email or phone. The
+            server can be run by entering "localhost/Musical-World/" in the web
+            browser. For this case using WAMP, I used Microsoft Edge as my web
+            browser to run my PHP files.
+
+            <img src="img/IndexPage.png" alt="">
+            <img src="img/Contact.png" alt="">
+            <p>Though the website is supposed to serve as a simple web application
+            that allows for the user to upload and listen to their desired songs
+            through a playlist, its main purpose is to give them a unique and
+            satisfying user experience. By implementing a modern design to each
+            page with an excellent use of HTML, CSS, and JavaScript, it will ensure
+            the user that they are inside a highly trustworthy and professional
+            website.
+            </p>
+
+            <img src="img/FeedPage.png" alt="">
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:collan97@gmail.com" class="footer__link">collan97@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dcollan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dcollan/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/dannycollan">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
